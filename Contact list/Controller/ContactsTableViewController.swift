@@ -27,6 +27,10 @@ class ContactsTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let gearVC = segue.destination as? PortraitViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
