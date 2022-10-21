@@ -30,8 +30,12 @@ class FullListTableViewController: UITableViewController {
 
         if indexPath.row == 0 {
             content.text = person.phone
+            content.image = UIImage(systemName: "phone.fill")
+            
         } else {
             content.text = person.mail
+            content.image = UIImage(systemName: "mail.fill")
+
         }
 
         cell.contentConfiguration = content

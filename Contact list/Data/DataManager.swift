@@ -26,17 +26,17 @@ class DataManager {
     ]
 
     let mails = [
-        "111@mail.ru","222@mail.ru","333@mail.ru",
-        "444@mail.ru","555@mail.ru","666@mail.ru",
-        "777@mail.ru","8888@mail.ru","99@mail.ru",
-        "101@mail.ru"
+        "ji.imb@mail.ru","app@mail.ru","ne@mail.ru",
+        "main@mail.ru","blue@mail.ru","6-6-6@mail.ru",
+        "909@mail.ru","two@mail.ru","red@mail.ru",
+        "four@mail.ru"
     ]
 
     let phones = [
-        "11111","22222","33333",
-        "44444","55555","66666",
-        "77777","88888","99999",
-        "1010101"
+        "89801234567","89009876543","89005671234",
+        "89600987654","89007654321","84730006789",
+        "89204565678","89711239876","89515149895",
+        "89103456789"
     ]
 
     init() {}
